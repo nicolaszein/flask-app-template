@@ -17,22 +17,27 @@ It also supports PostgreSQL database set up.
 
 ## Running
 
-1. Make all adjustments you think are necessary
+1. Rename with your application
+    ```sh
+    $ ./rename_project.sh application_name
+    ```
 
-2. I strongly recommend using virtualenvs
+2. Make all adjustments you think are necessary
+
+3. I strongly recommend using virtualenvs
     ```sh
     $ python -m venv /path/to/virtualenv/application_name
     $ source /path/to/virtualenv/application_name/bin/activate
     ```
 
-3. Install dependencies
+4. Install dependencies
     ```sh
     $ pip install -r requirements.txt
     ```
 
-4. Run server
+5. Run server
     ```sh
     $ python app.py
     ```
 
-5. Access the application on http://localhost:3000
+6. Access the application on http://localhost:3000
